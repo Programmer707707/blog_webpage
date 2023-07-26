@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Lato&family=Montserrat:wght@700&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+  font-family: "Jost";
+}
+/* Intro section starting */
+.intro {
+  background: black;
+  color: white;
+  align-items: center;
+  scroll-behavior: auto;
+  align-items: center;
+  margin-bottom: 100px;
+  transform-style: preserve-3d;
+}
+.particle-span {
+  color: red;
+}
+.intro h1 {
+  font-size: 2.5rem;
+  font-family: "Jost";
+  position: absolute;
+  left: 680px;
+  top: 60px;
+  z-index: 1;
+}
+
+/* Intro boy section */
+.intro-boy {
+  background-color: black;
+  height: 700px;
+}
+.intro-boy-back {
+  background-color: #ffd809;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  bottom: -250px;
+  border-radius: 0 80px 80px 0;
+  z-index: 99;
+}
+.hello-boy {
+  width: 300px;
+  position: absolute;
+  right: -30.5px;
+  top: -78px;
+  z-index: 9;
+}
+/* Intro boy section ending*/
+
+/* Polygon section */
+.intro-polygon {
+  background-image: image-set(".polygon");
+}
+.polygon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 700px;
+}
+
+.polygon-icons .icon-1 {
+  position: absolute;
+  top: 240px;
+  right: 90px;
+  color: rgb(41, 137, 255);
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.polygon-icons .icon-2 {
+  position: absolute;
+  top: 370px;
+  right: 180px;
+  color: rgb(13, 6, 6);
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.polygon-icons .icon-3 {
+  position: absolute;
+  top: 490px;
+  right: 260px;
+  color: black;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.polygon-icons .icon-4 {
+  position: absolute;
+  top: 590px;
+  right: 350px;
+  color: rgb(1, 155, 239);
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+/* Polygon section ending*/
+/* Intro section ending */
+
+.home {
+  margin: 50px;
+  background-color: #fff;
+  transition: all 1s ease;
+}
+/* Navbar section styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  align-items: center;
+  -webkit-box-shadow: 0px 3px 23px -7px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 3px 23px -7px rgba(0, 0, 0, 1);
+  box-shadow: 0px 3px 23px -7px rgba(0, 0, 0, 1);
+  height: 70px;
+  padding: 20px;
+  border-radius: 30px;
+  position: relative;
+}
+.navbar-link {
+  align-items: center;
+}
+.light-dark-mode {
+  position: absolute;
+  top: 15px;
+  right: 340px;
+}
+.logo {
+  cursor: pointer;
+}
+.logo-t {
+  position: absolute;
+  font-size: 3.8rem;
+  top: -10px;
+  left: 26px;
+}
+.logo-surname {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+}
+.logo-name {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin-right: 80px;
+}
+ul li {
+  padding: 20px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+ul li::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #8032ff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+ul li:hover::after {
+  transform: scaleX(1);
+}
+.resume-button {
+  width: 120px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background-color: #aa77ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-color: none;
+  border: none;
+}
+.resume-button:hover {
+  background-color: #8032ff;
+  letter-spacing: 1px;
+}
+/* Navbar section styling */
+/* Home section starting */
+.home-rectangle {
+  width: 1340px;
+  height: 450px;
+  border-radius: 40px 40px 300px 40px;
+  background: linear-gradient(135deg, #5961f9 15.29%, #ee9ae5 82.59%);
+
+  margin-top: 50px;
+  position: relative;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+.home-rectangle:hover {
+  box-shadow: 12px 12px 10px 10px #191717;
+}
+.home-rectangle .home-boy {
+  position: absolute;
+  right: 40px;
+  top: -5px;
+}
+.home-elements {
+  position: absolute;
+  width: 650px;
+}
+.home-h-text {
+  position: absolute;
+  top: 50px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.home-p-text {
+  position: absolute;
+  top: 150px;
+  font-size: 1.5rem;
+}
+.form-input {
+  position: absolute;
+  top: 300px;
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.form-submit-input {
+  position: absolute;
+  left: 340px;
+  top: 299px;
+  width: 100px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0px;
+}
+/* Home section ending */
+
+/* About section starting */
+.about-me {
+  margin-top: 250px;
+  margin: 50px;
+  margin-bottom: 500px;
+  position: relative;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 2rem;
+}
+.my-photo {
+  background-color: #191717;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 99;
+  left: 10px;
+}
+.about-me-elements {
+  position: absolute;
+  width: 1100px;
+  height: 350px;
+  border-radius: 24px 24px 24px 400px;
+  background: linear-gradient(135deg, #81ffef 0%, #f067b4 100%);
+
+  right: 20px;
+}
+.about-me-elements:hover {
+  box-shadow: 0px 3px 28px 15px rgb(64, 64, 64);
+}
+.about-me-elements p {
+  position: absolute;
+  font-size: 1.5rem;
+  width: 800px;
+  right: 10px;
+  top: 30px;
+}
+/* About section ending */
+
+/* Blog section starting */
+.blog {
+  margin-top: 600px;
+  margin: 50px;
+}
+.blog-rectangle {
+  width: 1340px;
+  height: 350px;
+  background-color: rgba(227, 223, 253, 1);
+  border-radius: 50px;
+
+  position: relative;
+}
+.blog-rectangle:hover {
+  box-shadow: 0px 3px 28px 15px rgb(64, 64, 64);
+}
+.blog-elements-text {
+  font-size: 1.5rem;
+  width: 450px;
+  position: absolute;
+  left: 120px;
+  top: 25px;
+}
+.blog-elements-button {
+  position: absolute;
+  bottom: 25px;
+  left: 250px;
+  color: white;
+  background-color: #000;
+  width: 120px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.blog-elements-button:hover {
+  cursor: pointer;
+  word-spacing: 1px;
+  box-shadow: 0px 3px 26px 10px rgba(255, 255, 255, 1);
+}
+.blog-computer {
+  width: 480px;
+  height: 300px;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  border-radius: 50px;
+}
+/* Blog section ending */
+.resume {
+  margin-top: 100px;
+}
+.cv-button {
+  margin-left: 660px;
+  margin-top: -150px;
+  width: 120px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background-color: #aa77ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-color: none;
+  border: none;
+}
+.cv-button:hover {
+  background-color: #8032ff;
+  letter-spacing: 1px;
+}
+
+/* Contact section starting */
+.contact {
+  margin-top: 150px;
+}
+.contact-rectangle {
+  background: transparent;
+  border-radius: 0px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: rgb(210, 209, 204);
+  height: 400px;
+}
+/* linear-gradient(rgb(199, 199, 199), rgba(255, 255, 255, 0)) */
+.contact-messengers {
+  display: grid;
+  margin-left: 70px;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.contact-messengers i {
+  margin-left: 100px;
+  font-size: 1.7rem;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.contact-address p {
+  font-size: 1.2rem;
+  width: 200px;
+  margin-top: 30px;
+}
+.contact-items-list {
+  display: grid;
+  margin-top: 10px;
+}
+.contact-form-input {
+  width: 150px;
+  height: 30px;
+}
+.contact-form-button {
+  width: 80px;
+  height: 30px;
+  margin-left: -5px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0px;
+}
+.contact-form-button:hover {
+  word-spacing: 1px;
+}
+.contact-book-call {
+  margin-top: 40px;
+}
+.contact-book-form {
+  margin-top: 15px;
+}
+/* Contact section ending */
+
+.bulb {
+  color: yellow;
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 35px;
+  text-align: center;
+  padding: 7px;
+}
+.black {
+  background: #000;
+}
+.white {
+  color: white;
+}
+.box-shadow {
+  box-shadow: 0px 3px 28px 15px rgb(130, 127, 127);
+}
+
+/* Designing webkit scrollbar */
+body::-webkit-scrollbar {
+  width: 1em;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    135deg,
+    rgb(180, 121, 248) 20%,
+    rgb(239, 241, 68) 80%
+  );
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
